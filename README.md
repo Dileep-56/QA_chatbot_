@@ -77,6 +77,5 @@ HF_TOKEN=your_huggingface_token
 
 ▶️ Run the App
 streamlit run code_assistant_app.py
-```
 
-It will be opened in Browser.
+```
