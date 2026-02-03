@@ -8,3 +8,4 @@ langchain_classic
 python-dotenv
 sentence-transformers
 pypdf
+chromadb
