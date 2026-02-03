@@ -43,14 +43,19 @@ It allows users to upload a PDF document and ask questions about its content, wh
 ---
 
 ## 📁 Project Structure
-
-.
-├── code_assistant_app.py
+```
+QA_chatbot/
+├── app.py                       # Streamlit app (entry point)
+├── rag.py                       # RAG pipeline logic
+├── llm.py                       # Groq + embeddings
+├── vectorstore.py               # Chroma logic
+├── prompts.py                   # Prompt templates
+├── session.py                   # Chat history
 ├── requirements.txt
 ├── .env
+├── .gitignore
 └── README.md
-
----
+```
 
 ## ⚙️ Setup Instructions
 
@@ -72,6 +77,6 @@ HF_TOKEN=your_huggingface_token
 
 ▶️ Run the App
 streamlit run code_assistant_app.py
-
+```
 
 It will be opened in Browser.
