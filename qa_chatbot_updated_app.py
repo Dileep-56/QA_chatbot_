@@ -14,8 +14,7 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 from dotenv import load_dotenv
 load_dotenv()   
 
-# load groq api
-# groq_api_key = os.getenv("GROQ_API_KEY")
+
 os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN")
 
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
