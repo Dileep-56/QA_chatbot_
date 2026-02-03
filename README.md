@@ -62,14 +62,13 @@ cd <project-folder>
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-🔑 Environment Variables
 
 Create a .env file:
 
 HF_TOKEN=your_huggingface_token
 
 
-Groq API Key is entered directly in the Streamlit UI.
+## Groq API Key is to be entered directly in the Streamlit UI.
 
 ▶️ Run the App
 streamlit run code_assistant_app.py
