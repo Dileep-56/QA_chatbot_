@@ -1,7 +1,7 @@
 # QA_chatbot_
 # Conversational RAG with PDF Upload and Chat History
 
-#### Streamlit Link - https://appchatbot-zdeuklkg6ocetot8rju4g6.streamlit.app/
+#### Streamlit App Link - https://appchatbot-zdeuklkg6ocetot8rju4g6.streamlit.app/
 
 This project is a **Conversational Retrieval-Augmented Generation (RAG)** application built using **Streamlit** and **LangChain**.  
 It allows users to upload a PDF document and ask questions about its content, while maintaining **chat history–aware conversations**.
